@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+            //EJERCICIO 1
+            
+                // 1.1 Declara una variable de tipo string y asígnale un mensaje de saludo. Luego, imprime la variable en la consola.
+                
+        let hello = "Bienvenido al programa";
+        console.log(hello);
+
+
+                // 1.2 Declara una variable de tipo number y asígnale tu edad. Luego, imprime la variable en la consola.
+
+        let edad = 20; 
+        console.log(edad);
+
+
+                // 1.3 Declara una variable de tipo boolean y asígnale true o false según tu preferencia. Luego, imprime la variable en la consola.
+
+        let esHombre = false; 
+        console.log(esHombre);
+
+
+                /*1.4. Declara una variable de tipo null y otra de tipo undefined. Luego, imprime ambas
+                variables en la consola.*/
+
+        let variableNull = null;
+        let variableUndefined;
+        console.log(variableNull, variableUndefined);
+
+
+                /*1.5. Crea un objeto que represente un artículo con propiedades
+                como name, price y category. Imprime el objeto en la consola*/
+
+        let articulo = {
+            name: "Movil",
+            price: 900,
+            category: "Electronica"
+        };
+        console.log(articulo);
+
+
+                /*1.6. Declara un array que contenga nombres de ciudades. Imprime el array en la consola.*/
+
+        let ciudades = ["Madrid", "Barcelona", "Valencia"];
+        console.log(ciudades);
+
+
+                /*1.7. Declara una variable y asígnale tu color favorito. Luego, modifica la variable con otro
+                color e imprime ambos valores en la consola.*/
+
+        let colorFavorito = "rojo";
+        console.log(colorFavorito);
+        colorFavorito = "amarillo";
+        console.log(colorFavorito);
+
+
+                /*1.8. Declara dos variables, una sin asignarle ningún valor y otra con el valor null. Imprime
+                ambas variables en la consola.*/
+
+        let variableSinValor;
+        let variableConNull = null;
+        console.log(variableSinValor, variableConNull);
+
+
+                /*1.9. Crea dos variables, una dentro de una función y otra fuera de ella. Intenta acceder a
+                ambas variables desde dentro y fuera de la función, y observa los resultados en la
+                consola.*/
+
+        let variableGlobal = "Soy global";
+
+        function ejemploAlcance() {
+            let variableLocal = "Soy local";
+            console.log(variableLocal); 
+        }
+
+        ejemploAlcance();
+        console.log(variableGlobal); 
+
+
+                /*1.10. Declara variables con nombres que sigan las reglas de JavaScript y otras que no las
+                sigan. Imprime los nombres de las variables en la consola.*/
+
+        let variableValida = "estoEsValido";
+        let variableInvalido = "estoNoEsValido";
+        console.log(variableValida);
+
+
+                /*1.11. Utiliza diferentes operadores (+, -, *, /, %, ++, --) con variables que contengan
+                números. Imprime los resultados en la consola.*/
+
+        let a = 10, b = 5;
+        console.log(a + b, a - b, a * b, a / b, a % b, a++, --b);
+
+
+                /*1.12. Declara una variable con una cadena de texto de varias líneas usando caracteres de
+                escape (\n, \t). Imprime la cadena resultante en la consola.*/
+                
+        let variasLineas = "Bienvenido\n\tA mi pagina\n\tdisfruta de tu estancia aqui";
+        console.log(multiLinea);
+
+    </script>
+    
+</body>
+</html>
