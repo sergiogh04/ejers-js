@@ -30,12 +30,53 @@ Now is better than never.
 
 - el constructor srt convierte cualquier tipo de dato en una cadena . (cadena = str(numero))
 
----USO DEL FORMAT---
+### USO DEL FORMAT
 
-En el interior de la cadena podemos usar {} como marcador de los argumentos
+- En el interior de la cadena podemos usar {} como marcador de los argumentos
 
 Hola, soy {} y tengo {} años .format("Sergio", 20)
 
+- (utilizamos el key-value para acceder al valor del argumento)
+
+
+mensaje = "Hola, tengo {edad} años y me llamo {nombre}".format(nombre="Rivas", edad=37)
+
+### USO DE F-STRINGS
+
+- A partir de la versión 3.6 se introdujo f-Strings. (formateo literal de cadenas) Solo tienes que especificar el nombre de las variables dentro de las llaves {}
+
+mensaje = f"Hola soy {Sergio} y tentgo {20} años
+
+- Pueden evaluar expresiones válidas
+
+print(f"El producto de {n1} y {n2} es {n1 * n2}
+
+### Métodos para trabajar con strings en Pyhton
+
+- capitalize() --> devuelve la primera letra en mayúscula
+
+- lower() --> confierte todos los carácteres en minúscula
+
+- upper() --> convierte todos los carácteres en mayúscula
+
+- swapcase() --> convierte los caracteres con mayúsucla en minuscula y viceversa
+
+- count() --> te permite contar las veces que otra cadena se encuentra dentro de la primera
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## OPERADORES
+
+- operadores aritmeticos : 
+
+ | + | - | * | / | // | & | ** |
+
+- operadores de asignación :
+
+| = | += | -= | *= | /= | //= | %= | **= |
 
 
 
+
+  
